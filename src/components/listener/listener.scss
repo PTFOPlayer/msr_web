@@ -1,0 +1,38 @@
+.listener {
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1vh;
+
+  p {
+    margin: 0;
+  }
+
+  .coreInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .coresThreads {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cache {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    .cacheRow {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+    }
+    .cacheName {
+      padding-right: 1vw;
+      color: greenyellow;
+    }
+  }
+}
